@@ -21,7 +21,7 @@
     "typeRoots": ["*.d.ts", "types/*.d.ts"],
     "types": ["@types/jest"]
   },
-  "include": ["src", "index.ts", "global.d.ts"],
+  "include": ["src", "index.ts", "global.d.ts", "odmconfig.ts"],
   "exclude": ["node_modules", "build.ts"],
   "ts-node": {
     "files": true
